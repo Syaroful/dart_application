@@ -2,7 +2,6 @@
 ---
 ## Mauhamad Syaroful Anam | TI-3G | 2141720108
 ---
-<<<<<<< HEAD
 ## Output Program Dart
 ![Alt text](image-soal-1-5.png) ![Alt text](image-soal-6-10.png)
 ### Tugas 1
@@ -13,7 +12,7 @@
 - Output:
 =======
 ### Soal 1
->>>>>>> 84ff7f6a5dd5e26d94d66917858e37b855ab449b
+
 ```
 Syaroful Anam
 Syaroful Anam
