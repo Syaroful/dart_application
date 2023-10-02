@@ -2,11 +2,11 @@ import 'dart:ffi';
 
 void main() {
   //tugas1
-
+  print('\n---- tugas 1 ----');
   print('hello world');
 
   //tugas2
-  print('\n');
+  print('\n---- tugas 2 ----');
   String name = 'Syaroful Anam';
 
   print(name);
@@ -14,7 +14,7 @@ void main() {
   print(name);
 
   //tugas3
-  print('\n');
+  print('\n---- tugas 3 ----');
   String firstName = 'Syaroful';
   String lastName = 'Anam';
 
@@ -22,7 +22,7 @@ void main() {
   print(lastName);
 
   //tugas4
-  print('\n');
+  print('\n---- tugas 4 ----');
   final array1 = [1, 2, 3];
   const array2 = [4, 5, 6];
 
@@ -33,7 +33,7 @@ void main() {
   print(array2);
 
   //tugas5
-  print('\n');
+  print('\n---- tugas 5 ----');
   num number = 10;
   print(number);
 
@@ -41,7 +41,7 @@ void main() {
   print(number);
 
   //tugas6
-  print('\n');
+  print('\n---- tugas 6 ----');
   String firstName1 = 'Syaroful';
   String lastName1 = 'Anam';
 
@@ -49,26 +49,26 @@ void main() {
   print(fullName);
 
   //tugas7
-  print('\n');
+  print('\n---- tugas 7 ----');
   var text = 'ini \'OPTIMAL\' \$sekali';
   print(text);
 
   //tugas8
-  print('\n');
+  print('\n---- tugas 8 ----');
   var name1 = firstName + lastName;
   var name2 = 'Syaroful' 'Anam';
   print(name1);
   print(name2);
 
   //tugas9
-  print('\n');
+  print('\n---- tugas 9 ----');
   var name3 = firstName + " " + lastName;
   var name4 = 'Syaroful' 'Anam';
   print(name3);
   print(name4);
 
   //tugas 10
-  print('\n');
+  print('\n---- tugas 10 ----');
   var kalimatPanjang = '''
   ini
   saya punya

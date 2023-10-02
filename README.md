@@ -1,87 +1,83 @@
 # Laporan Tugas KUIS
+---
+## Mauhamad Syaroful Anam | TI-3G | 2141720108
+---
+## Output Program Dart
+![Alt text](image-soal-1-5.png) ![Alt text](image-soal-6-10.png)
+### Tugas 1
+- Output: `hello world`
+- Penjelasan: Program mencetak "hello world" ke layar.
 
-### Soal 1
+### Tugas 2
+- Output:
 ```
-  print('hello world');
+Syaroful Anam
+Syaroful Anam
+Syaroful Anam
 ```
-![soal 1](image.png)
-### Soal 2
-```
-  String name = 'Syaroful Anam';
+- Penjelasan: Variabel `name` berisi string "Syaroful Anam", dan kemudian dicetak tiga kali.
 
-  print(name);
-  print(name);
-  print(name);
+### Tugas 3
+- Output:
 ```
-![soal 2](image-1.png)
-### Soal 3
+Syaroful
+Anam
 ```
-  String firstName = 'Syaroful';
-  String lastName = 'Anam';
+- Penjelasan: Variabel `firstName` dan `lastName` masing-masing berisi "Syaroful" dan "Anam", dan keduanya dicetak secara terpisah.
 
-  print(firstName);
-  print(lastName);
-```
-![soal 3](image-2.png)
-### Soal 4
-```
-  final array1 = [1, 2, 3];
-  const array2 = [4, 5, 6];
+### Tugas 4
+- Output:
+  ```
+  [100, 2, 3]
+    [4, 5, 6]
+  ```
+- Penjelasan: `array1` adalah variabel yang bisa diubah (mutable), sehingga elemennya dapat diubah. Namun, `array2` adalah variabel konstan (constant), sehingga tidak dapat diubah setelah inisialisasi.
 
-  array1[0] = 100;
+### Tugas 5
+- Output:
+```
+10
+10.5
+```
+- Penjelasan: Variabel `number` pertama-tama berisi angka bulat (num), kemudian diubah menjadi angka desimal (double), menunjukkan fleksibilitas dalam Dart untuk mengubah tipe variabel.
 
-  print(array1);
-  print(array2);
-```
-![soal 4](image-3.png)
-### Soal 5
-```
-  num number = 10;
-  print(number);
+### Tugas 6
+- Output: `Syaroful Anam`
+- Penjelasan: Variabel `fullName` menggabungkan `firstName1` dan `lastName1`, dan hasilnya dicetak sebagai satu string.
 
-  number = 10.5;
-  print(number);
+### Tugas 7
+- Output: `ini 'OPTIMAL' $sekali`
+- Penjelasan: Variabel `text` berisi string dengan karakter khusus seperti tanda kutip tunggal dan dolar, yang dipreservasi karena digunakan tanda kutip ganda.
 
+### Tugas 8
+- Output:
 ```
-![soal 5](image-4.png)
-### Soal 6
+SyarofulAnam
+SyarofulAnam
 ```
-  String firstName1 = 'Syaroful';
-  String lastName1 = 'Anam';
+- Penjelasan: `name1` menggabungkan `firstName` dan `lastName` dengan menggunakan operator `+`. `name2` menggabungkan keduanya tanpa operator tambahan.
 
-  var fullName = '$firstName1 $lastName1';
-  print(fullName);
+### Tugas 9
+- Output:
 ```
-![soal 6](image-5.png)
-### Soal 7
+Syaroful Anam
+SyarofulAnam
 ```
-  var text = 'ini \'OPTIMAL\' \$sekali';
-  print(text);
+- Penjelasan: `name3` menggabungkan `firstName` dan `lastName` dengan spasi di antaranya. `name4` menggabungkan keduanya tanpa spasi.
+
+### Tugas 10
+- Output:
 ```
-![soal 7](image-6.png)
-### Soal 8
+ini
+saya punya
+proyek dart
+banyak
 ```
-  var name1 = firstName + lastName;
-  var name2 = 'Syaroful' 'Anam';
-  print(name1);
-  print(name2);
-```
-![soal 8](image-7.png)
-### Soal 9
-```
-  var name3 = "$firstName $lastName";
-  var name4 = 'Syaroful' 'Anam';
-  print(name3);
-  print(name4);
-```
-![soal 9](image-8.png)
-### Soal 10
-```
-  var kalimatPanjang = '''
-  ini
-  saya punya
-  proyek dart
-  banyak ''';
-  print(kalimatPanjang);
-```
-![soal 10](image-9.png)
+- Penjelasan: Variabel `kalimatPanjang` adalah string multi-baris yang mencakup beberapa baris teks.
+
+### Perbedaan Penggunaan Tipe Variabel
+- `var`: Digunakan untuk deklarasi variabel dengan inferensi tipe. Dart akan secara otomatis menentukan tipe variabel berdasarkan nilai yang diberikan.
+- `final`: Digunakan untuk deklarasi variabel yang nilainya tetap setelah diinisialisasi. Nilai variabel final hanya dapat diatur sekali.
+- `const`: Digunakan untuk deklarasi variabel yang nilainya konstan dan harus dikenal pada saat kompilasi. Nilai variabel const harus diketahui pada saat kompilasi dan tidak dapat diubah.
+
+
