@@ -10,22 +10,19 @@
 
 ### Tugas 2
 - Output:
-=======
-### Soal 1
-
-```
-Syaroful Anam
-Syaroful Anam
-Syaroful Anam
-```
+    ```
+    Syaroful Anam
+    Syaroful Anam
+    Syaroful Anam
+    ```
 - Penjelasan: Variabel `name` berisi string "Syaroful Anam", dan kemudian dicetak tiga kali.
 
 ### Tugas 3
 - Output:
-```
-Syaroful
-Anam
-```
+    ```
+    Syaroful
+    Anam
+    ```
 - Penjelasan: Variabel `firstName` dan `lastName` masing-masing berisi "Syaroful" dan "Anam", dan keduanya dicetak secara terpisah.
 
 ### Tugas 4
@@ -38,10 +35,10 @@ Anam
 
 ### Tugas 5
 - Output:
-```
-10
-10.5
-```
+    ```
+    10
+    10.5
+    ```
 - Penjelasan: Variabel `number` pertama-tama berisi angka bulat (num), kemudian diubah menjadi angka desimal (double), menunjukkan fleksibilitas dalam Dart untuk mengubah tipe variabel.
 
 ### Tugas 6
@@ -54,28 +51,28 @@ Anam
 
 ### Tugas 8
 - Output:
-```
-SyarofulAnam
-SyarofulAnam
-```
+    ```
+    SyarofulAnam
+    SyarofulAnam
+    ```
 - Penjelasan: `name1` menggabungkan `firstName` dan `lastName` dengan menggunakan operator `+`. `name2` menggabungkan keduanya tanpa operator tambahan.
 
 ### Tugas 9
 - Output:
-```
-Syaroful Anam
-SyarofulAnam
-```
+    ```
+    Syaroful Anam
+    SyarofulAnam
+    ```
 - Penjelasan: `name3` menggabungkan `firstName` dan `lastName` dengan spasi di antaranya. `name4` menggabungkan keduanya tanpa spasi.
 
 ### Tugas 10
 - Output:
-```
-ini
-saya punya
-proyek dart
-banyak
-```
+    ```
+    ini
+    saya punya
+    proyek dart
+    banyak
+    ```
 - Penjelasan: Variabel `kalimatPanjang` adalah string multi-baris yang mencakup beberapa baris teks.
 
 ### Perbedaan Penggunaan Tipe Variabel
